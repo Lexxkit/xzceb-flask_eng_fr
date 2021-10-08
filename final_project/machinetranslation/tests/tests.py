@@ -22,6 +22,4 @@ class TestTranslator(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.assertEqual(french_to_english(None),None)
 
-
-if __name__ == '__main__':
-    unittest.main()
+unittest.main()
