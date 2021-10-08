@@ -1,6 +1,5 @@
 import unittest
 from translator import english_to_french, french_to_english
-from ibm_cloud_sdk_core import api_exception
 
 
 class TestTranslator(unittest.TestCase):
